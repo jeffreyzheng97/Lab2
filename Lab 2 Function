@@ -1,0 +1,15 @@
+import sys
+
+def cmdlinearguements():
+    if len(sys.argv) != 3:
+      print('Please provide two variables')
+      sys.exit(1)
+    
+    var1 = sys.argv[1]
+    var2 = sys.argv[2]
+   
+    print('These are the variables: ' + var1 + ' ' + var2)
+    print('This is the script: ' + sys.argv[0])
+    print('Script and Arguments: ' + sys.argv)
+
+cmdlinearguements()
