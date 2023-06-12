@@ -12,4 +12,8 @@ def cmdlinearguements():
     print('This is the script: ' + sys.argv[0])
     print('Script and Arguments: ' + sys.argv)
 
+def helloWorld():
+    print('Hello World')
+
 cmdlinearguements()
+helloWorld()
